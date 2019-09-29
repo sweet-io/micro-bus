@@ -33,7 +33,8 @@ class SnsConnector
     public function getDefaultConfiguration($config)
     {
         return array_merge([
-            'profile' => 'default',
+            //sending a default profile looks for credentials files locally.  Lets not do that.
+            //'profile' => 'default',
             'version' => 'latest',
         ], $config);
     }
