@@ -1,5 +1,5 @@
 {
-  "name": "sweet/micro-bus",
+  "name": "sweet-io/micro-bus",
   "description": "Build your laravel/lumen microservice application with AWS SNS/SQS",
   "type": "laravel-package",
   "license": "MIT",
